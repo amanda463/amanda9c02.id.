@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAE1D3; 
+    background-image: url(Screenshot\ 2024-10-10\ 210105.png);
+    color: #4B3D2E;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4B3D2E; 
+    color: #ffffff; 
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #6F4C3E; 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #8B5A29; 
+    color: #EAE1D3; 
+}
+
+.container {
+    flex: 1;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #554533; 
+    text-transform: uppercase;
+    font-size: 28px;
+}
+h1{
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-size: 28px; 
+}
+.textbox {
+    background-color: #a36248; 
+    padding: 20px;
+    border-left: 4px solid #6F4C3E; 
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    color: #6F4C3E;
+}
+
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.gallery img:hover {
+    filter: grayscale(0%); 
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    background-color: #4B3D2E;
+    color: #ffffff; 
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
